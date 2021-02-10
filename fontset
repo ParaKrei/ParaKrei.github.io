@@ -1,0 +1,6 @@
+/* sonicmania */
+@font-face {
+  font-family: 'SonicMania'
+  font-style: normal;
+  src: url(fonts/sonic-mania-font-version.ttf) format('truetype');
+  }
