@@ -1,0 +1,8 @@
+/* sonicmania */
+@font-face {
+	font-family: 'SonicMania';
+	src: url('fonts/sonic-mania-font-version.eot');
+	src: local('☺'), url('fonts/sonic-mania-font-version.woff') format('woff'), url('fonts/sonic-mania-font-version.ttf') format('truetype'), url('fonts/sonic-mania-font-version.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
