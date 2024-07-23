@@ -1,0 +1,142 @@
+/* Thanks to transfonter.org for helping me convert these fonts! */
+/* START OF FONT CODE */
+/* From https://github.com/tonsky/FiraCode */
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+
+/* From https://github.com/kika/fixedsys */
+@font-face {
+	font-family: 'Fixedsys Excelsior';
+	src: url('fonts/FixedsysExcelsior.eot');
+	src: url('fonts/FixedsysExcelsior.eot?#iefix') format('embedded-opentype'),
+		url('fonts/FixedsysExcelsior.woff2') format('woff2'),
+		url('fonts/FixedsysExcelsior.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+/* END OF FONT CODE */
+
+html {padding: 20px;}
+
+.top, .bottom, .left, .right {
+	position: fixed;
+	text-align: center;
+	transform: translate3d(0, 0, 0); /* Enforces GPU usage. */
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 50s;
+	background-size: contain;
+	z-index: 2
+}
+
+.top, .bottom {
+	background-repeat: repeat-x;
+	width: 8000px;
+	height: 20px;
+	left: 0;
+	right: 0;
+	animation-name: xMove;
+}
+.top {top: 0; background-image: url("borders/topBorder.svg"); animation-direction: reverse;}
+.bottom {bottom: 0; background-image: url("borders/bottomBorder.svg"); animation-direction: normal;}
+
+.left, .right {
+	background-repeat: repeat-y;
+	word-break: break-all;
+	width: 20px;
+	height: 8000px;
+	top: 0px;
+	bottom: 0px;
+	animation-name: yMove;
+}
+.left {left: 0; background-image: url("borders/leftBorder.svg"); animation-direction: normal;}
+.right {right: 0; background-image: url("borders/rightBorder.svg"); animation-direction: reverse;}
+
+@keyframes xMove {
+	0% {transform: translateX(-3.5%);}
+	50% {transform: translateX(-31%);}
+	100% {transform: translateX(-71%);}
+}
+@keyframes yMove {
+	0% {transform: translateY(0%);}
+	50% {transform: translateY(-41%);}
+	100% {transform: translateY(-81%);}
+}
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Fixedsys Excelsior', monospace;
+	text-shadow: 0.8px 0.8px 0px green, -0.8px -0.8px 0px green;
+	animation-name: shadowColors;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+	font-size: 18px; /* Font is smaller, increase size. */
+}
+
+code {
+	font-family: 'Fira Code', 'Fixedsys Excelsior', monospace;
+}
+
+@keyframes shadowColors {
+	0% {text-shadow: 0.8px 0.8px 0px green, -0.8px -0.8px 0px green;}
+	25% {text-shadow: 0.8px 0.8px 0px blue, -0.8px -0.8px 0px blue;}
+	50% {text-shadow: 0.8px 0.8px 0px yellow, -0.8px -0.8px 0px yellow;}
+	75% {text-shadow: 0.8px 0.8px 0px red, -0.8px -0.8px 0px red;}
+	100% {text-shadow: 0.8px 0.8px 0px pink, -0.8px -0.8px 0px pink;}
+}
+
+a {transition: color 0.5s, text-shadow 0.1s; text-shadow: 0 0}
+
+/* Hyperlink stuff here: */
+a:link {
+	color: #ff0000;
+	text-shadow: 0.8px 0.8px 0px blue, -0.8px -0.8px 0px orange;
+}
+a:visited {
+	color: #b76b00;
+	text-shadow: 1px 1px 2px darkblue, -1px -1px 2px goldenrod;
+}
+a:hover {
+	color: #ff9500;
+	text-shadow: 0.75px 0.75px 0px lightblue, -0.5px -0.5px 0px yellow;
+}
+a:active {
+	color: #ffca00;
+	text-shadow: 0.5px 0.5px 0px lightblue, -0.35px -0.35px 0px yellow;
+}
+
+.naviBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 20px;
+	overflow: hidden;
+	position: -webkit-sticky; /* For the idiotic Safari. */
+	position: sticky;
+	top: 0;
+	background-color: green;
+}
+.naviBar li {
+	display: inline;
+}
+.naviBar li a {
+	transition: background-color 0.2s;
+	text-align: center;
+	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: none;
+}
+.naviBar li a:hover {
+	background-color: darkgreen;
+}
+.naviBar li a:active {
+	background-color: lightgreen;
+}
+
+ul, ol { /* List fix, since the number/symbol gets stuck on the edges of the screen. */
+	list-style-position: inside;
+	padding: 0;
+}

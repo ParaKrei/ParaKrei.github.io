@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="72"
+   height="24"
+   viewBox="0 0 72 24"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="topBorder.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title568">topBorder</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     shape-rendering="crispEdges"
+     showborder="true"
+     inkscape:lockguides="true"
+     inkscape:zoom="4.0027115"
+     inkscape:cx="44.969516"
+     inkscape:cy="44.59477"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="100,0"
+       orientation="0,-100"
+       id="guide299"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="38,100"
+       orientation="24,0"
+       inkscape:locked="true"
+       id="guide371" />
+    <sodipodi:guide
+       position="38,76"
+       orientation="0,24"
+       inkscape:locked="true"
+       id="guide373" />
+    <sodipodi:guide
+       position="62,76"
+       orientation="-24,0"
+       inkscape:locked="true"
+       id="guide375" />
+    <sodipodi:guide
+       position="62,100"
+       orientation="0,-24"
+       inkscape:locked="true"
+       id="guide377" />
+    <sodipodi:guide
+       position="14,100"
+       orientation="24,0"
+       inkscape:locked="true"
+       id="guide392" />
+    <sodipodi:guide
+       position="14,76"
+       orientation="0,24"
+       inkscape:locked="true"
+       id="guide394" />
+    <sodipodi:guide
+       position="38,76"
+       orientation="-24,0"
+       inkscape:locked="true"
+       id="guide396" />
+    <sodipodi:guide
+       position="62,100"
+       orientation="24,0"
+       inkscape:locked="true"
+       id="guide413" />
+    <sodipodi:guide
+       position="62,76"
+       orientation="0,24"
+       inkscape:locked="true"
+       id="guide415" />
+    <sodipodi:guide
+       position="86,76"
+       orientation="-24,0"
+       inkscape:locked="true"
+       id="guide417" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid421"
+       originx="-3.2050953e-07"
+       originy="3.5940069e-08"
+       empspacing="24"
+       dotted="false"
+       spacingy="1"
+       spacingx="1"
+       units="px"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Main"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14)">
+    <path
+       sodipodi:type="star"
+       style="fill:#ffa500;fill-opacity:1"
+       id="path163-7"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="13.606993"
+       sodipodi:cy="7.5594406"
+       sodipodi:r1="13.185754"
+       sodipodi:r2="6.5928769"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 25.02619,14.152318 2.1877949,14.152317 13.606993,-5.6263132 Z"
+       inkscape:transform-center-y="4.0000004"
+       transform="matrix(1.0508619,0,0,-1.2134308,59.70093,17.172858)"
+       inkscape:label="right" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffff00;fill-opacity:1"
+       id="path163"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="13.606993"
+       sodipodi:cy="7.5594406"
+       sodipodi:r1="13.185754"
+       sodipodi:r2="6.5928769"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 25.02619,14.152318 2.1877949,14.152317 13.606993,-5.6263132 Z"
+       inkscape:transform-center-y="4.0000004"
+       transform="matrix(1.0508619,0,0,-1.2134308,35.70093,17.172858)"
+       inkscape:label="middle" />
+    <path
+       sodipodi:type="star"
+       style="fill:#0051e7;fill-opacity:1"
+       id="path163-5"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="13.606993"
+       sodipodi:cy="7.5594406"
+       sodipodi:r1="13.185754"
+       sodipodi:r2="6.5928769"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 25.02619,14.152318 2.1877949,14.152317 13.606993,-5.6263132 Z"
+       inkscape:transform-center-y="4.0000004"
+       transform="matrix(1.0508619,0,0,-1.2134308,11.70093,17.172858)"
+       inkscape:label="left" />
+  </g>
+  <metadata
+     id="metadata566">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>topBorder</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

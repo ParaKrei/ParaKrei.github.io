@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="../main.css"> <!--Yep, we are using external CSS now!-->
+		<meta charset="UTF-8">
+		<title>ERROR CODE: 404</title>
+		<style>
+			@keyframes titleAnimate {
+				from {text-shadow: -10px -10px #FF0000}
+				to {text-shadow: 10px 10px #FF0000}
+			}
+			.titleText {
+				font-size:500%;
+				text-align:center;
+				text-shadow: 2px 2px #FF0000;
+				animation-name: titleAnimate;
+				animation-timing-function: ease-in-out;
+				animation-fill-mode: forwards;
+				animation-direction: alternate;
+				animation-duration: 1.5s;
+				animation-iteration-count: infinite;
+			}
+			/* Enforcing colors onto links. */
+			a {
+				transition: color 0.5s, text-shadow 0.1s;
+				text-shadow: 0 0
+				color: #ff0000;
+				text-shadow: 0.8px 0.8px 0px blue, -0.8px -0.8px 0px orange;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="left"></div>
+		<div class="right"></div>
+		<div class="top"></div>
+		<div class="bottom"></div>
+		
+		<p class="titleText"><strong>ERROR CODE: 404</strong></p>
+		<p style="text-align:center"><strong>It seems that you have run into a dead end.</strong></p>
+		<p style="text-align:center"><a style="text-decoration-line: underline; text-decoration-color:red; color:red; cursor:pointer" onclick="history.back()" title="This will send you back a page.">Click here to retrace your steps.</a></p>
+		<p style="text-align:center"><a style="text-decoration-line: underline; text-decoration-color:red; color:red; cursor:pointer" href="../index.html" title="This will send you to the homepage.">Click here to go back to where it all started.</a></p>
+	</body>
+</html>
